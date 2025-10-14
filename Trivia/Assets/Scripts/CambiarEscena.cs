@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class CambiarScena : MonoBehaviour
 {
- public void CambiarScenaClick(string sceneName)
+ public void CambiarScenaClick(string Juego)
  {
- SceneManager.LoadScene(sceneName);
+ SceneManager.LoadScene(Juego);
  }
  public void SalirJuego()
  {

@@ -1389,6 +1389,19 @@ MonoBehaviour:
   bancoDePreguntas:
   - nombreDificultad: pregunta0
     preguntas:
+    - informacionComplementaria: gatos
+      enunciado: 
+      respuestas:
+      - texto: los gatos
+      respuestaCorrecta: 0
+    - informacionComplementaria: 
+      enunciado: 
+      respuestas: []
+      respuestaCorrecta: 0
+    - informacionComplementaria: 
+      enunciado: 
+      respuestas: []
+      respuestaCorrecta: 0
     - informacionComplementaria: 
       enunciado: 
       respuestas: []
@@ -1399,14 +1412,50 @@ MonoBehaviour:
       enunciado: 
       respuestas: []
       respuestaCorrecta: 0
+    - informacionComplementaria: 
+      enunciado: 
+      respuestas: []
+      respuestaCorrecta: 0
+    - informacionComplementaria: 
+      enunciado: 
+      respuestas: []
+      respuestaCorrecta: 0
+    - informacionComplementaria: 
+      enunciado: 
+      respuestas: []
+      respuestaCorrecta: 0
   - nombreDificultad: pregunta2
     preguntas:
     - informacionComplementaria: 
       enunciado: 
       respuestas: []
       respuestaCorrecta: 0
+    - informacionComplementaria: 
+      enunciado: 
+      respuestas: []
+      respuestaCorrecta: 0
+    - informacionComplementaria: 
+      enunciado: 
+      respuestas: []
+      respuestaCorrecta: 0
+    - informacionComplementaria: 
+      enunciado: 
+      respuestas: []
+      respuestaCorrecta: 0
   - nombreDificultad: pregunta3
     preguntas:
+    - informacionComplementaria: 
+      enunciado: 
+      respuestas: []
+      respuestaCorrecta: 0
+    - informacionComplementaria: 
+      enunciado: 
+      respuestas: []
+      respuestaCorrecta: 0
+    - informacionComplementaria: 
+      enunciado: 
+      respuestas: []
+      respuestaCorrecta: 0
     - informacionComplementaria: 
       enunciado: 
       respuestas: []
@@ -1964,8 +2013,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 49, y: 225}
-  m_SizeDelta: {x: 766.001, y: 87.093}
+  m_AnchoredPosition: {x: 0, y: 260}
+  m_SizeDelta: {x: 597.455, y: 156.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2126424663
 MonoBehaviour:
@@ -1980,7 +2029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9245283, g: 0.89676934, b: 0.8940014, a: 1}
+  m_Color: {r: 0.3108294, g: 0.8018868, b: 0.26099145, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1994,7 +2043,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 50
-    m_Alignment: 3
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
