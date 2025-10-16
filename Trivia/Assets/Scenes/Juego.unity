@@ -148,18 +148,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9714771}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.0032755265, y: -0, z: -0, w: 0.99999464}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1386706403}
   m_Father: {fileID: 1041985262}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.375, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 291, y: 80.65099}
-  m_SizeDelta: {x: 582, y: 59.651}
+  m_AnchoredPosition: {x: 440.73785, y: -154}
+  m_SizeDelta: {x: 576.362, y: 63.679}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &9714773
 MonoBehaviour:
@@ -182,10 +182,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0.40784314, g: 0.8509804, b: 0.3882353, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.60784316, g: 0.60784316, b: 0.7254902, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -317,8 +317,8 @@ MonoBehaviour:
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 5
-    m_MaxSize: 50
+    m_MinSize: 0
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -333,6 +333,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 102558494}
+  m_CullTransparentMesh: 1
+--- !u!1 &314158689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 314158690}
+  - component: {fileID: 314158692}
+  - component: {fileID: 314158691}
+  m_Layer: 5
+  m_Name: txt_Temporizador
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &314158690
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314158689}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1041985262}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -852.81744, y: 480}
+  m_SizeDelta: {x: 281.874, y: 119.927}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &314158691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314158689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8773585, g: 0.51731044, b: 0.51731044, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 74dba5503a1815747bbe0f8b6f9c956a, type: 3}
+    m_FontSize: 45
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Tiempo:'
+--- !u!222 &314158692
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314158689}
   m_CullTransparentMesh: 1
 --- !u!1 &365066646
 GameObject:
@@ -518,18 +597,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392152377}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.006550564, y: 0.011755454, z: -0.00007701185, w: 0.99990946}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 102558495}
   m_Father: {fileID: 1041985262}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.75, y: 1.347, z: -0.018}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -371, y: 80.651}
-  m_SizeDelta: {x: 582, y: 59.651}
+  m_AnchoredPosition: {x: -344.1351, y: -157}
+  m_SizeDelta: {x: 561.724, y: 59.657}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392152379
 MonoBehaviour:
@@ -552,10 +631,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+    m_HighlightedColor: {r: 0.6080241, g: 0.60648805, b: 0.7264151, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0.40784314, g: 0.8509804, b: 0.3882353, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -600,7 +679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.60784316, g: 0.60784316, b: 0.7254902, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -753,8 +832,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -371, y: -29.826}
-  m_SizeDelta: {x: 582, y: 59.651}
+  m_AnchoredPosition: {x: -344.13, y: -364.04}
+  m_SizeDelta: {x: 561.73, y: 59.651}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &615955610
 MonoBehaviour:
@@ -777,10 +856,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0.40784314, g: 0.8509804, b: 0.3882353, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -825,7 +904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.60784316, g: 0.60784316, b: 0.7254902, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -886,7 +965,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14, y: -398}
+  m_AnchoredPosition: {x: 35.999996, y: -29.999996}
   m_SizeDelta: {x: 300, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &647276728
@@ -910,8 +989,8 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+    m_HighlightedColor: {r: 0.4117647, g: 0.8509804, b: 0.39215687, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -1074,6 +1153,8 @@ GameObject:
   - component: {fileID: 1041985261}
   - component: {fileID: 1041985260}
   - component: {fileID: 1041985259}
+  - component: {fileID: 1041985264}
+  - component: {fileID: 1041985263}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1163,6 +1244,7 @@ RectTransform:
   - {fileID: 1849133784}
   - {fileID: 1651700951}
   - {fileID: 1632904587}
+  - {fileID: 314158690}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1170,6 +1252,44 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1041985263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041985258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.89417946, g: 0.9524743, b: 0.9622642, a: 0.6156863}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b494e81ac82312646b31e3b81f8de884, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1041985264
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041985258}
+  m_CullTransparentMesh: 1
 --- !u!1 &1386706402
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,8 +1403,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -50, y: 367}
-  m_SizeDelta: {x: 671.562, y: 132.94}
+  m_AnchoredPosition: {x: 36, y: 122}
+  m_SizeDelta: {x: 1368.434, y: 136.968}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1474100156
 MonoBehaviour:
@@ -1299,7 +1419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.754717, g: 0.3863777, b: 0.25987896, a: 1}
+  m_Color: {r: 0.30437565, g: 0.9433962, b: 0.29814878, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1340,6 +1460,7 @@ GameObject:
   - component: {fileID: 1525057800}
   - component: {fileID: 1525057802}
   - component: {fileID: 1525057803}
+  - component: {fileID: 1525057804}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -1367,7 +1488,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525057799}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 69.7737, y: 76.36504, z: -2.809999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1387,79 +1508,191 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bancoDePreguntas:
-  - nombreDificultad: pregunta0
+  - nombreDificultad: Tema_Matematicas
     preguntas:
-    - informacionComplementaria: gatos
-      enunciado: 
+    - informacionComplementaria: "\xA1Felicidades es Correcto! La suma de 4 mas 2
+        es: 6"
+      enunciado: "\xBFCu\xE1nto es 4 + 2 ?"
       respuestas:
-      - texto: los gatos
+      - texto: 1
+      - texto: 6
+      - texto: 3
+      - texto: 4
+      respuestaCorrecta: 1
+    - informacionComplementaria: "\xA1Felicidades es Correcto! La resta de 2 menos
+        1 es: 1 "
+      enunciado: "\xBFCu\xE1nto es 2 - 1 ?"
+      respuestas:
+      - texto: 2
+      - texto: 1
+      - texto: 3
+      - texto: 4
+      respuestaCorrecta: 1
+    - informacionComplementaria: "\xA1Felicidades es Correcto! La multiplicacion
+        de 2 por 2 es: 4 "
+      enunciado: "\xBFCu\xE1nto es 2 * 2 ?"
+      respuestas:
+      - texto: 4
+      - texto: 2
+      - texto: 5
+      - texto: 3
       respuestaCorrecta: 0
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
+    - informacionComplementaria: "\xA1Felicidades es Correcto! La divicion de 10
+        dividio entre 2 es: 5"
+      enunciado: "\xBFCu\xE1nto es 10 / 2 ?"
+      respuestas:
+      - texto: 5
+      - texto: 2
+      - texto: 10
+      - texto: 1
       respuestaCorrecta: 0
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
-      respuestaCorrecta: 0
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
-      respuestaCorrecta: 0
-  - nombreDificultad: pregunta1
+  - nombreDificultad: Tema_EstSociales
     preguntas:
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
+    - informacionComplementaria: "\xA1Felicidades es Correcto! Vivimos en el continente
+        llamado America"
+      enunciado: "\xBFC\xF3mo se llama el continente donde se encuentra Costa Rica?"
+      respuestas:
+      - texto: "Am\xE9rica"
+      - texto: Salvador
+      - texto: Oceania
+      - texto: Pacifico
       respuestaCorrecta: 0
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
+    - informacionComplementaria: "\xA1Felicidades es Correcto! Un mapa Es una representaci\xF3n
+        dibujada de un lugar, como una ciudad, un pa\xEDs o el mundo. "
+      enunciado: "\xBFQu\xE9 es un mapa?"
+      respuestas:
+      - texto: Un sistema de capas
+      - texto: "Una representaci\xF3n gr\xE1fica"
+      - texto: Ubicaciones de lugares
+      - texto: Patrones de simbolos
+      respuestaCorrecta: 1
+    - informacionComplementaria: "\xA1Felicidades es Correcto! Todos los seres vivos
+        habitan en el planeta Tierra."
+      enunciado: "\xBFC\xF3mo se llama el planeta donde vivimos?"
+      respuestas:
+      - texto: Jupiter
+      - texto: Luna
+      - texto: La Tierra
+      - texto: Marte
+      respuestaCorrecta: 2
+    - informacionComplementaria: "\xA1Felicidades es Correcto! Hay que reducir la
+        contaminacion ambiental"
+      enunciado: "\xBFQu\xE9 debemos hacer para cuidar nuestro entorno?"
+      respuestas:
+      - texto: Respetar la naturaleza. reciclar.
+      - texto: Tirar basura a los rios
+      - texto: Quemas bosques
+      - texto: Talar arboles
       respuestaCorrecta: 0
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
-      respuestaCorrecta: 0
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
-      respuestaCorrecta: 0
-  - nombreDificultad: pregunta2
+  - nombreDificultad: Tema_Ciencias
     preguntas:
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
+    - informacionComplementaria: "\xA1Felicidades es Correcto! Marte es considerado
+        por la NASA como el Planeta rojo."
+      enunciado: "\xBFQu\xE9 planeta es conocido como el \u201Cplaneta rojo\u201D?"
+      respuestas:
+      - texto: Marte
+      - texto: Venus
+      - texto: La Tierra
+      - texto: Saturno
       respuestaCorrecta: 0
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
-      respuestaCorrecta: 0
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
-      respuestaCorrecta: 0
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
-      respuestaCorrecta: 0
-  - nombreDificultad: pregunta3
+    - informacionComplementaria: "\xA1Felicidades es Correcto! El cerebro es el organo
+        encargado de brindar esta funcionalidad al sistema del cuerpo humano."
+      enunciado: "\xBFQu\xE9 \xF3rgano usamos para pensar?"
+      respuestas:
+      - texto: El corazon
+      - texto: El cerebro
+      - texto: Las piernas
+      - texto: El estomago
+      respuestaCorrecta: 1
+    - informacionComplementaria: "\xA1Felicidades es Correcto! "
+      enunciado: "\xBFCu\xE1ntas patas tiene una ara\xF1a?"
+      respuestas:
+      - texto: 4
+      - texto: 8
+      - texto: 9
+      - texto: 10
+      respuestaCorrecta: 1
+    - informacionComplementaria: "\xA1Felicidades es Correcto! El sol nos brinda
+        la luz y calor necesaria para poder sobrevivir."
+      enunciado: "\xBFQu\xE9 astro nos da luz y calor durante el d\xEDa?"
+      respuestas:
+      - texto: La luna
+      - texto: Los arboles
+      - texto: El Sol
+      - texto: Las estrellas
+      respuestaCorrecta: 2
+  - nombreDificultad: "Tema_Espa\xF1ol"
     preguntas:
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
+    - informacionComplementaria: "\xA1Felicidades es Correcto!"
+      enunciado: "\xBFQu\xE9 signo se usa al final de una pregunta?"
+      respuestas:
+      - texto: .
+      - texto: '?'
+      - texto: '!'
+      - texto: +
+      respuestaCorrecta: 1
+    - informacionComplementaria: "\xA1Felicidades es Correcto!"
+      enunciado: "\xBFCu\xE1l palabra est\xE1 escrita correctamente?"
+      respuestas:
+      - texto: Komida
+      - texto: comidda
+      - texto: comida
+      - texto: comyda
+      respuestaCorrecta: 2
+    - informacionComplementaria: "\xA1Felicidades es Correcto!"
+      enunciado: "\xBFQu\xE9 tiempo verbal tiene la frase \u201CYo jugu\xE9 con mis
+        amigos\u201D?"
+      respuestas:
+      - texto: Pasado
+      - texto: Presente
+      - texto: Futuro
+      - texto: Medio
       respuestaCorrecta: 0
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
+    - informacionComplementaria: "\xA1Felicidades es Correcto!"
+      enunciado: "\xBFCu\xE1l es el verbo en esta oraci\xF3n?: \u201CLa ni\xF1a canta
+        una canci\xF3n.\u201D"
+      respuestas:
+      - texto: Canta
+      - texto: "Ni\xF1a"
+      - texto: Cancion
+      - texto: Verbo
+      respuestaCorrecta: 1
+  - nombreDificultad: "Tema_Espa\xF1ol"
+    preguntas:
+    - informacionComplementaria: "\xA1Felicidades es Correcto!"
+      enunciado: "\xBFQu\xE9 signo se usa al final de una pregunta?"
+      respuestas:
+      - texto: .
+      - texto: '?'
+      - texto: '!'
+      - texto: +
+      respuestaCorrecta: 1
+    - informacionComplementaria: "\xA1Felicidades es Correcto!"
+      enunciado: "\xBFCu\xE1l palabra est\xE1 escrita correctamente?"
+      respuestas:
+      - texto: Komida
+      - texto: comidda
+      - texto: comida
+      - texto: comyda
+      respuestaCorrecta: 2
+    - informacionComplementaria: "\xA1Felicidades es Correcto!"
+      enunciado: "\xBFQu\xE9 tiempo verbal tiene la frase \u201CYo jugu\xE9 con mis
+        amigos\u201D?"
+      respuestas:
+      - texto: Pasado
+      - texto: Presente
+      - texto: Futuro
+      - texto: Medio
       respuestaCorrecta: 0
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
-      respuestaCorrecta: 0
-    - informacionComplementaria: 
-      enunciado: 
-      respuestas: []
-      respuestaCorrecta: 0
+    - informacionComplementaria: "\xA1Felicidades es Correcto!"
+      enunciado: "\xBFCu\xE1l es el verbo en esta oraci\xF3n?: \u201CLa ni\xF1a canta
+        una canci\xF3n.\u201D"
+      respuestas:
+      - texto: Canta
+      - texto: "Ni\xF1a"
+      - texto: Cancion
+      - texto: Verbo
+      respuestaCorrecta: 1
   enunciado: {fileID: 2126424663}
   respuesta:
   - {fileID: 102558496}
@@ -1474,6 +1707,10 @@ MonoBehaviour:
   - {fileID: 9714773}
   - {fileID: 615955610}
   - {fileID: 1849133785}
+  sonidoInicio: {fileID: 8300000, guid: 8f2dff713971f684e86e04b3ac271a05, type: 3}
+  sonidoGanar: {fileID: 8300000, guid: cb1709e600ee47646833997609023d40, type: 3}
+  sonidoPerder: {fileID: 8300000, guid: d83f38df04c785c4e80aebaae7e1231a, type: 3}
+  textoTimer: {fileID: 314158691}
 --- !u!114 &1525057803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1489,6 +1726,102 @@ MonoBehaviour:
   panelInformacionComplementaria: {fileID: 1632904586}
   informacionComplementaria: {fileID: 1474100156}
   game: {fileID: 1525057802}
+--- !u!82 &1525057804
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525057799}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8f2dff713971f684e86e04b3ac271a05, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.903
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1545927482
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,8 +2005,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.00018310547, y: 0.00024414062}
+  m_SizeDelta: {x: 0.00048828, y: -0.00048828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1632904588
 MonoBehaviour:
@@ -1688,7 +2021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.35697755, g: 0.3962264, b: 0.39041075, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1749,8 +2082,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24, y: -222}
-  m_SizeDelta: {x: 300, y: 60}
+  m_AnchoredPosition: {x: 33.595, y: -498}
+  m_SizeDelta: {x: 300, y: 79.323}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1651700952
 MonoBehaviour:
@@ -1773,8 +2106,8 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+    m_HighlightedColor: {r: 0.25342646, g: 0.8018868, b: 0.34836614, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -1821,7 +2154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1882,8 +2215,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 291, y: -29.825981}
-  m_SizeDelta: {x: 582, y: 59.651}
+  m_AnchoredPosition: {x: 437.15192, y: -364.04}
+  m_SizeDelta: {x: 567.326, y: 71.736}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1849133785
 MonoBehaviour:
@@ -1906,10 +2239,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0.40784314, g: 0.8509804, b: 0.3882353, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1954,7 +2287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.60784316, g: 0.60784316, b: 0.7254902, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2013,8 +2346,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 260}
-  m_SizeDelta: {x: 597.455, y: 156.24}
+  m_AnchoredPosition: {x: 33.595, y: 279}
+  m_SizeDelta: {x: 1317.2, y: 225.159}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2126424663
 MonoBehaviour:
@@ -2029,7 +2362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3108294, g: 0.8018868, b: 0.26099145, a: 1}
+  m_Color: {r: 0.8852795, g: 0.9245283, b: 0.9057576, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2037,12 +2370,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 74dba5503a1815747bbe0f8b6f9c956a, type: 3}
-    m_FontSize: 50
+    m_Font: {fileID: 12800000, guid: b7a181cbcf7f7bd41a687629a9de3961, type: 3}
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1

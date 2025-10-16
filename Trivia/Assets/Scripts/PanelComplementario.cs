@@ -16,7 +16,7 @@ public class PanelComplementario : MonoBehaviour
     public Game game;
     private int nivelPregunta;
     private int preguntaAlAzar;
-
+/* public Text textoTimer; // ← (opcional) Mostrar el temporizador en UI */
 
     public void Continuar()
     {
@@ -35,6 +35,7 @@ public class PanelComplementario : MonoBehaviour
         // la información complementaria
         informacionComplementaria.text =
        game.bancoDePreguntas[nivelPregunta].preguntas[preguntaAlAzar].informacionComplementaria;
+       /* textoTimer.gameObject.SetActive(false);  */
     }
 
 
